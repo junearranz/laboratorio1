@@ -225,6 +225,6 @@ nothing to commit, working tree clean
 _xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_
 
 
-## Autores ✒️
+## Autores ✨
 
 * **June Arranz** - [junearranz](https://github.com/junearranz)
