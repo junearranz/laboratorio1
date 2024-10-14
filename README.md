@@ -64,7 +64,7 @@ To https://github.com/junearranz/laboratorio1.git
  * [new branch]      master -> master
 ```
 
-## Hacer un commit y un push: Añado varios archivos (.gitignore, carpeta src, package.json y los sincronizo con GitHub)
+## 3. Hacer un commit y un push: Añado varios archivos (.gitignore, carpeta src, package.json y los sincronizo con GitHub)
 ```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git add .
