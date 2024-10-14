@@ -64,6 +64,10 @@ To https://github.com/junearranz/laboratorio1.git
  * [new branch]      master -> master
 ```
 
+### Añado varios archivos y los sincronizo con GitHub:
+
+
+
 ## Hacer un commit y un push
 
 _xxxxxxxxxxxxx_
