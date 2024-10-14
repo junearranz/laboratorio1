@@ -10,17 +10,17 @@ June@DESKTOP-4ABLAGV MINGW64 ~
 $ cd repositorios
 ```
 Creo la carpeta:
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ mkdir laboratorio1
 ```
 Entro a la carpeta:
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ cd laboratorio1
 ```
 Incializo el repositorio:
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1
 $ git init
 Initialized empty Git repository in C:/Users/June/Repositorios/laboratorio1/.git/
@@ -31,28 +31,28 @@ Initialized empty Git repository in C:/Users/June/Repositorios/laboratorio1/.git
 Creo un nuevo repositorio en GitHub:
 
 https://github.com/junearranz/laboratorio1.git
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/June/Repositorios/laboratorio1/.git/
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git add .
 warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git commit -m "Hellooo Git"
 [master (root-commit) 57a9fc1] Hellooo Git
  1 file changed, 6 insertions(+)
  create mode 100644 package-lock.json
 ```
-``` 
+``` console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git remote add origin git@github.com:junearranz/laboratorio1.git
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 3, done.
@@ -70,23 +70,23 @@ To https://github.com/junearranz/laboratorio1.git
 ```
 
 ## 3. Hacer un commit y un push: Añado varios archivos del repositorio de ejemplo (carpeta src, package.json), creo .gitignore y los sincronizo con GitHub:
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git add .
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git commit -m "Añadimos archivo gitignore"
 [master 4f7ce01] Añadimos archivo gitignore
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 .gitignore
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git remote add origin git@github.com:junearranz/laboratorio1.git
 error: remote origin already exists.
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 4, done.
@@ -98,14 +98,14 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To github.com:junearranz/laboratorio1.git
    7cc1344..4f7ce01  master -> master
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git add .
 warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git commit -m "Añadiendo archivos: Carpeta src y package.json"
 [master 1acd773] Añadiendo archivos: Carpeta src y package.json
@@ -114,7 +114,7 @@ $ git commit -m "Añadiendo archivos: Carpeta src y package.json"
  create mode 100644 src/index.html
  create mode 100644 src/index.js
 ```
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 9, done.
