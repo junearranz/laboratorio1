@@ -3,18 +3,23 @@
 Este laboratorio tiene como objetivo practicar los comandos básicos de Git.
 
 ## 1. Crear un repositorio en local
+
+Entro a la carpeta donde voy a crear el repositorio:
 ```
 June@DESKTOP-4ABLAGV MINGW64 ~
 $ cd repositorios
 ```
+Creo la carpeta:
 ```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ mkdir laboratorio1
 ```
+Entro a la carpeta:
 ```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ cd laboratorio1
 ```
+Incializo el repositorio:
 ```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1
 $ git init
