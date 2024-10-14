@@ -5,7 +5,7 @@ Este laboratorio tiene como objetivo practicar los comandos básicos de Git.
 ## 1. Crear un repositorio en local
 
 Entro a la carpeta donde voy a crear el repositorio:
-```bash session
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~
 $ cd repositorios
 ```
@@ -52,7 +52,7 @@ $ git commit -m "Hellooo Git"
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git remote add origin git@github.com:junearranz/laboratorio1.git
 ```
-```bash session
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 3, done.
