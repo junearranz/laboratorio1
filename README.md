@@ -52,7 +52,7 @@ $ git commit -m "Hellooo Git"
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git remote add origin git@github.com:junearranz/laboratorio1.git
 ```
-```console
+```bash session
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 3, done.
