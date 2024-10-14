@@ -3,20 +3,23 @@
 Este laboratorio tiene como objetivo practicar los comandos básicos de Git.
 
 ## 1. Crear un repositorio en local
-
+```
 June@DESKTOP-4ABLAGV MINGW64 ~
 $ cd repositorios
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ mkdir laboratorio1
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios
 $ cd laboratorio1
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1
 $ git init
 Initialized empty Git repository in C:/Users/June/Repositorios/laboratorio1/.git/
-
+```
 
 ## 2. Subir el repositorio a GitHub
 
