@@ -213,7 +213,12 @@ Switched to branch 'development'
 June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (development)        
 $
 ```
-
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (development)        
+$ git status
+On branch development
+nothing to commit, working tree clean
+```
 
 ## Hacer un merge
 
