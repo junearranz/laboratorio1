@@ -179,7 +179,7 @@ Server running at http://localhost:1234
 ✨ Built in 411ms
 ```
 
-## Crear una rama
+## 4. Crear una rama
 
 Reviso el estado del proyecto:
 ```console
@@ -220,7 +220,7 @@ On branch development
 nothing to commit, working tree clean
 ```
 
-## Hacer un merge
+## 5. Hacer un merge
 
 _xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_
 
