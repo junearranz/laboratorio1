@@ -155,6 +155,30 @@ To github.com:junearranz/laboratorio1.git
    1acd773..16c4260  master -> master
 ```
 
+### 3.2: Haciendo npm install y npm start para comprobar que funciona:
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
+$ npm install
+npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+
+added 199 packages, and audited 200 packages in 2m
+
+90 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
+$ npm start
+
+> 00-boilerplate@1.0.0 start
+> rimraf dist && parcel ./src/index.html --open
+
+Server running at http://localhost:1234
+✨ Built in 411ms
+```
+
 ## Crear una rama
 
 _xxxxxxxxxxxxxx_
