@@ -181,7 +181,39 @@ Server running at http://localhost:1234
 
 ## Crear una rama
 
-_xxxxxxxxxxxxxx_
+Reviso el estado del proyecto:
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
+Creo una nueva rama:
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (master)
+$ git branch development
+```
+Muestro por pantalla todas las ramas existentes:
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (master)
+$ git log --oneline --decorate --graph --all
+* 7642bdd (HEAD -> master, origin/master, development) cambios
+* 16c4260 Cambiando el texto a mostrar por pantalla
+* 1acd773 Añadiendo archivos: Carpeta src y package.json
+* 4f7ce01 Añadimos archivo gitignore
+* 7cc1344 Hellooo Git
+```
+Cambio a la rama development
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (master)
+$ git checkout development
+Switched to branch 'development'
+```
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/Repositorios/laboratorio1 (development)        
+$
+```
+
 
 ## Hacer un merge
 
