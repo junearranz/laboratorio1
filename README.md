@@ -127,7 +127,7 @@ To github.com:junearranz/laboratorio1.git
    4f7ce01..1acd773  master -> master
 ```
 
-### 3.1: Cambiando el texto a mostrar por pantalla, de los archivos de ejemplo:
+### 3.1: Cambiando el texto a mostrar por pantalla de los archivos de ejemplo:
 
 ```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
