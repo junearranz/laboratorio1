@@ -5,7 +5,7 @@ Este laboratorio tiene como objetivo practicar los comandos básicos de Git.
 ## 1. Crear un repositorio en local
 
 Entro a la carpeta donde voy a crear el repositorio:
-```
+```console
 June@DESKTOP-4ABLAGV MINGW64 ~
 $ cd repositorios
 ```
