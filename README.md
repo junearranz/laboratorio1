@@ -127,6 +127,33 @@ To github.com:junearranz/laboratorio1.git
    4f7ce01..1acd773  master -> master
 ```
 
+### 3.1: Cambiando el texto a mostrar por pantalla, de los archivos de ejemplo:
+
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
+$ git add .
+warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+```
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
+$ git commit -m "Cambiando el texto a mostrar por pantalla"
+[master 16c4260] Cambiando el texto a mostrar por pantalla
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+```
+```console
+June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 451 bytes | 451.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:junearranz/laboratorio1.git
+   1acd773..16c4260  master -> master
+```
 
 ## Crear una rama
 
