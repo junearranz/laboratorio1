@@ -26,24 +26,28 @@ Initialized empty Git repository in C:/Users/June/Repositorios/laboratorio1/.git
 Creo un nuevo repositorio en GitHub:
 
 https://github.com/junearranz/laboratorio1.git
-
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/June/Repositorios/laboratorio1/.git/
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git add .
 warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git commit -m "Hellooo Git"
 [master (root-commit) 57a9fc1] Hellooo Git
  1 file changed, 6 insertions(+)
  create mode 100644 package-lock.json
- 
+```
+``` 
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git remote add origin git@github.com:junearranz/laboratorio1.git
-
+```
+```
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ git push origin master
 Enumerating objects: 3, done.
@@ -58,6 +62,7 @@ remote:      https://github.com/junearranz/laboratorio1/pull/new/master
 remote:
 To https://github.com/junearranz/laboratorio1.git
  * [new branch]      master -> master
+```
 
 ## Hacer un commit y un push
 
