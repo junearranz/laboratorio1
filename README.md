@@ -155,7 +155,7 @@ To github.com:junearranz/laboratorio1.git
    1acd773..16c4260  master -> master
 ```
 
-### 3.2: Haciendo npm install y npm start para comprobar que funciona:
+### 3.2. Instalo dependencias del proyecto y compruebo que funciona:
 ```console
 June@DESKTOP-4ABLAGV MINGW64 ~/repositorios/laboratorio1 (master)
 $ npm install
